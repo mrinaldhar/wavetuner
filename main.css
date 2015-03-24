@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+			font-family: 'Helvetica Neue', sans-serif;
+			font-weight: 200;
+			background: #000;
+			text-align: center;
+  height: 100%;
+		}
+		a {
+			color: #fff;
+		}
+		canvas {
+			display: block;
+			position: fixed;
+			top: 20px;
+			left: 0;
+			z-index: -1;
+		}
+		#panel {
+			color: #fff;
+			font-size: 14px;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			padding: 10px;
+			background: rgba(255,255,255,.2);
+		}
+		input {
+			display: block;
+			margin: 0 auto;
+			width: 200px;
+			margin-bottom: 20px;
+		}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WaveTuner</title>
+  <script src="jquery.js"></script>
+  <script src="jquery-ui.js"></script>
+  <script src="snowfall.js"></script>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  
+  <button id="pause" class="disappear" onclick="pausePlaying()">Pause</button>
+  <button id="micaccess" class="disappear" onclick="setupAudioNodes(1)">Use Live Audio (Chrome only)</button>
+  <button id="switchvisuals" class="disappear" onclick="switchVisuals()">Switch Visuals</button>
+
+
+  <div id="header" class="disappear">WaveTuner
+  </div> 
+  <div id="footer" class="disappear">
+  	Designed by Mrinal Dhar
+
+  </div>
+  <div id="songname" class="disappear">
+  	<span id="title">Skyfall</span>
+  	<br /><span id="artist">Adele</span>
+  </div>
+
+  <input type="range" id="volume" class="disappear" min="0" step="1" max="100" value="90" oninput="changeVolume()" onchange="changeVolume()" />
+</body>
+</html>
