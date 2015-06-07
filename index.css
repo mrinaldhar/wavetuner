@@ -72,13 +72,14 @@ color:white;
   width: 100%;
   z-index: 5;
   text-align: center;
+  color: black;
   margin: 0px auto;
 }
 #footer {
   position: absolute;
   bottom: 20px;
   z-index: 5;
-
+color: black;
   width: 100%;
   text-align: center;
   margin: 0px auto;

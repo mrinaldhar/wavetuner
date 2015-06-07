@@ -289,23 +289,24 @@ var diff=2;
       if (VISUALS == 1) {
       LINECLR = "rgba("+r+","+g+","+b+",";
   $('#canvas').animate({backgroundColor:"rgba(0,0,0, 1)"},100);
+$('#header, #footer').css("color", "white");
 
     }
     else if (VISUALS == 0) {
       LINECLR = "rgba(0,0,0,";
   $('#canvas').animate({backgroundColor:"rgba("+r+", "+g+", "+b+", 0.85)"},100);
-
+$('#header, #footer').css("color", "black");
     }
 
   // $('#canvas').animate({backgroundColor:"rgba("+r+", "+g+", "+b+", 0.85)"},100});
 
-    // brightness = (r * 299 + g * 587 + b * 114) / 1000;       ENABLE IF YOU WANT TO CHANGE IT ACCORDING TO BACKGROUND COLOR
+    // brightness = (r * 299 + g * 587 + b * 114) / 1000;      // ENABLE IF YOU WANT TO CHANGE IT ACCORDING TO BACKGROUND COLOR
 
     // if (brightness < 125) {
-    //   LINECLR = "rgba(255,255,255,";
+      // LINECLR = "rgba(255,255,255,";
 
     // } else {
-    //   LINECLR = "rgba(0,0,0,";
+      // LINECLR = "rgba(0,0,0,";
 
     // }
     // console.log(LINECLR);
